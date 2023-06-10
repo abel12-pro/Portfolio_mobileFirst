@@ -16,6 +16,7 @@ body {
   justify-content: space-between;
   height: 100%;
   align-items: center;
+  padding: 4px 12px;
 }
 
 .hamburger {
@@ -41,18 +42,18 @@ body {
   flex-direction: column;
   justify-content: center;
   height: 604px;
-  padding: 0px 24px;
+  padding: 0 24px;
 }
 
 .short-presentation {
-  font-family: 'Poppins',sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 52px;
-    color: #172B4D;
-    margin: 0 auto;
-    padding-top: 15px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+  margin: 0;
+  padding-top: 15px;
 }
 
 #home_presentation p {
@@ -68,7 +69,6 @@ body {
   display: flex;
   align-items: center;
   padding-left: 0;
-  margin-left: 24px;
 }
 
 .icon {
@@ -86,25 +86,12 @@ h3 {
   line-height: 44px;
 }
 
-footer h3 {
+.let-connect {
   font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: normal;
+  font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   color: #7f8cff;
-  margin-left: 24px;
-}
-
-footer h3:hover {
-  text-decoration: underline;
-  text-decoration-thickness: 2px;
-  text-decoration-color: #23a3fa;
-}
-
-#home_presentation footer {
-  display: flex;
-  flex-direction: column;
 }
 
 #nav .logo {
@@ -140,7 +127,7 @@ footer h3:hover {
   #nav {
     display: flex;
     justify-content: space-between;
-    padding: 0px 142px;
+    padding: 10px 142px;
     height: 100%;
     align-items: center;
   }
@@ -177,7 +164,6 @@ footer h3:hover {
     font-weight: 700;
     font-size: 48px;
     line-height: 60px;
-    color: #091E42;
-    
+    color: #091e42;
   }
 }
